@@ -1,6 +1,6 @@
 # requirements
 
-requires macFUSE (for both dislocker and ntfs-3g), dislocker, ntfs-3g, recent version of bash (probably 4 or higher) in /usr/local/bin (the script uses associative arrays which the bash that comes with macOS does not support)
+requires macFUSE (for both dislocker and ntfs-3g), dislocker, ntfs-3g, recent version of bash (probably 4 or higher) in /usr/local/bin (the script uses associative arrays which the bash that comes with macOS does not support). you will probably need to edit the homebrew formulas for dislocker and ntfs-3g so they build and work properly on macOS again (they were disabled due to macFUSE becoming proprietary), this is left as an exercise to the reader.
 
 # autodislocker
 
